@@ -134,7 +134,9 @@ README.md
 ## **Usage**
 
 - Run the Streamlit app:
-- streamlit run app.py
+
+streamlit run app.py
+
 - Open your browser at http://localhost:8501
 - Type a keyword in the search bar to find artwork PDFs
 

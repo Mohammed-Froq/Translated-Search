@@ -55,22 +55,22 @@ pip install -r requirements.txt
 
 ## **Installation**
 
-# 1️⃣ Clone the repository:
+**1️⃣ Clone the repository:**
 
 - git clone https://github.com/<your-username>/artwork-search-engine.git
 - cd artwork-search-engine
 
-# 2️⃣ Create a Python virtual environment:
+**2️⃣ Create a Python virtual environment:**
 
 - python -m venv venv
 - source venv/bin/activate  # macOS/Linux
 - venv\Scripts\activate     # Windows
 
-# 3️⃣ Install dependencies:
+**3️⃣ Install dependencies:**
 
 - pip install -r requirements.txt
 
-# 4️⃣ Place your CSV and PDF files:
+**4️⃣ Place your CSV and PDF files:**
 
 - CSV file: update CSV_PATH in the code
 - PDFs folder: update PDF_DIR in the code
@@ -96,18 +96,18 @@ README.md
 
 ## **How It Works (Technical Details)**
 
-# 1️⃣ Load Data
+**1️⃣ Load Data**
 
 - Reads CSV file with columns file name and product description
 - Caches data with Streamlit @st.cache_data
 
-# 2️⃣ Search Functionality
+**2️⃣ Search Functionality**
 
 - Exact Matches: regex-based search for whole words
 - Partial Matches: substring search
 - Translated Matches: queries translated to multiple languages, then back to English
 
-# 3️⃣ Display Results
+**3️⃣ Display Results**
 
 - Shows results in three sections: Exact, Partial, Translated
 - Each result displays:
@@ -118,7 +118,7 @@ README.md
 
 3.Download button
 
-# 4️⃣ Offline PDF Viewing
+**4️⃣ Offline PDF Viewing**
 
 - PDF is read as bytes and encoded in Base64
 - Displayed safely in-browser without external URLs
